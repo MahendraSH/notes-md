@@ -30,7 +30,6 @@ const MdPage: FC<MdPageProps> = async ({ params }) => {
 
   return (
     <div className=" flex-row justify-between  gap-10">
-      <Separator />
       <div className="   prose   prose-headings:text-accent-foreground/65 prose-strong:text-secondary-foreground/65 mx-auto mt-8 text-foreground">
         {ReactHtmlParser(md().render(mddata))}
       </div>
