@@ -13,6 +13,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Link1Icon } from "@radix-ui/react-icons";
 import Link from "next/link";
+import { siteConfig } from "@/lib/config/site-config";
 interface SubPageProps {
   params: {
     sub: string;
@@ -22,7 +23,7 @@ interface SubPageProps {
 const SubPage: FC<SubPageProps> = async ({ params }) => {
   async function getSubdata() {
     const data = await axios.get(
-      `http://localhost:3000/notes/${params.sub}.json`
+      `${siteConfig.url}/${params.sub}.json`
     );
 
     return data;

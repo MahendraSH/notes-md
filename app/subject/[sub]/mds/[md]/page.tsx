@@ -4,6 +4,7 @@ import ReactHtmlParser from "react-html-parser";
 import md from "markdown-it";
 import { Separator } from "@/components/ui/separator";
 import { MoveLeft } from "lucide-react";
+import { siteConfig } from "@/lib/config/site-config";
 interface MdPageProps {
   params: {
     sub: string;
@@ -16,7 +17,7 @@ const MdPage: FC<MdPageProps> = async ({ params }) => {
     try {
       const headers = { Accept: "text/plain" };
       const data = await axios.get(
-        `http://localhost:3000/notes/${params.sub}/${params.md}`,
+        `${siteConfig.url}/notes/${params.sub}/${params.md}`,
         { headers }
       );
       return data.data;
