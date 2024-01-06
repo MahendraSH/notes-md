@@ -17,7 +17,7 @@ const MdPage: FC<MdPageProps> = async ({ params }) => {
     try {
       const headers = { Accept: "text/plain" };
       const data = await axios.get(
-        `${siteConfig.url}/notes/${params.sub}/${params.md}`,
+        `${siteConfig.url}notes/${params.sub}/${params.md}`,
         { headers }
       );
       return data.data;

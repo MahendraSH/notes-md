@@ -23,9 +23,9 @@ interface SubPageProps {
 const SubPage: FC<SubPageProps> = async ({ params }) => {
   async function getSubdata() {
     const data = await axios.get(
-      `${siteConfig.url}/${params.sub}.json`
+      `${siteConfig.url}notes/${params.sub}.json`
     );
-
+      
     return data;
   }
 
