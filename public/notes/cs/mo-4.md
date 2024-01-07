@@ -1,9 +1,5 @@
 # MODULE 4:( book 150 )
 
-- ## [Summery1](#summery-1)
-- ## [Summery2](#summery-2)
-
-
 ## **table of contents**
 
 - [Tools and methods used in cybercrime](#tools-and-methods-used-in-cybercrime)
