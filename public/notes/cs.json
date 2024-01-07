@@ -1,1 +1,13 @@
-{ "mds": ["mo-1.md", "mo-2.md", "mo-3.md", "mo-4.md", "mo-5.md"] }
+{
+  "mds": [
+    "mo-1.md",
+    "mo-1-sym1.md",
+    "mo-1-sym2.md",
+    "mo-2.md",
+    "mo-3.md",
+    "mo-4.md",
+    "mo-4-sym1.md",
+    "mo-4-sym2.md",
+    "mo-5.md"
+  ]
+}
