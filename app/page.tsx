@@ -15,6 +15,7 @@ import { Button } from "@/components/ui/button";
 import { Link1Icon } from "@radix-ui/react-icons";
 import { Separator } from "@/components/ui/separator";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 interface MainPageProps {}
 
@@ -42,7 +43,10 @@ const MainPage: FC<MainPageProps> = ({}) => {
             <TableBody key={index}>
               <TableRow>
                 <TableCell> {index}</TableCell>
-                <TableCell> {sub}</TableCell>
+                <TableCell>
+                  {" "}
+                  <Link href={`/subject/${sub}`}> {sub}</Link>
+                </TableCell>
                 <TableCell>
                   {" "}
                   <Button

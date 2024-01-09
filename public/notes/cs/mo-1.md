@@ -1,9 +1,6 @@
 # module - 1
 
 - ## [table-of-contents](#table-of-contents)
-- ## [Summery1](#summery-1)
-- ## [Summery2](#summery-2)
-
 - Introduction:
 
   - Introduction to cybercrime,

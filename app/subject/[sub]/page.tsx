@@ -22,10 +22,8 @@ interface SubPageProps {
 
 const SubPage: FC<SubPageProps> = async ({ params }) => {
   async function getSubdata() {
-    const data = await axios.get(
-      `${siteConfig.url}notes/${params.sub}.json`
-    );
-      
+    const data = await axios.get(`${siteConfig.url}notes/${params.sub}.json`);
+
     return data;
   }
 
@@ -41,7 +39,7 @@ const SubPage: FC<SubPageProps> = async ({ params }) => {
         <Separator />
         <div className="  max-h-96 overflow-y-scroll    ">
           <Table className=" w-full">
-            <TableCaption>A list of Subjects.</TableCaption>
+            <TableCaption>A list of modueles.</TableCaption>
             <TableHeader>
               <TableRow>
                 <TableHead className="  lg:min-w-[150px]"> Index</TableHead>
@@ -49,11 +47,13 @@ const SubPage: FC<SubPageProps> = async ({ params }) => {
                 <TableHead className=" lg:min-w-[150px]">Links</TableHead>
               </TableRow>
             </TableHeader>
-            {list.data.mds.map((md: string) => (
-              <TableBody key={md}>
+            {list.data.mds.map((md: string, index: any) => (
+              <TableBody key={index}>
                 <TableRow>
-                  <TableCell> {md}</TableCell>
-                  <TableCell> {md}</TableCell>
+                  <TableCell> {index}</TableCell>
+                  <TableCell>
+                    <Link href={`/subject/${params.sub}/mds/${md}`}> {md}</Link>
+                  </TableCell>
                   <TableCell>
                     {" "}
                     <Link href={`/subject/${params.sub}/mds/${md}`}>
