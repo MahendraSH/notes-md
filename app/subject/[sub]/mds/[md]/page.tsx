@@ -25,11 +25,12 @@ const MdPage: FC<MdPageProps> = async ({ params }) => {
   }
 
   const mddata = await ReadMd();
+  const data = md().set({ linkify: true, typographer: true }).render(mddata);
 
   return (
     <div className=" flex-row justify-between  gap-10">
-      <div className="   prose   *:first-letter:capitalize  prose-headings:text-accent-foreground/65 prose-strong:text-secondary-foreground/65 mx-auto mt-8 text-foreground">
-        {ReactHtmlParser(md().render(mddata))}
+      <div className="   prose   *:first-letter:capitalize  prose-headings:text-accent-foreground/75 prose-strong:text-secondary-foreground  prose-strong:text-xl prose-strong:font-semibold  mx-auto mt-8 text-foreground">
+        {ReactHtmlParser(data)}
       </div>
     </div>
   );

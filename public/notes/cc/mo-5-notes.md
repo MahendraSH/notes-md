@@ -25,19 +25,13 @@
   the public and are important for the use of the service should be included in the description.
   The semantics of a service should be documented, either directly or indirectly, by its description.
 
-      -  **Granularity** Services tend to use a small number of operations with relatively large and
-      complex messages.
+  - **Granularity** Services tend to use a small number of operations with relatively large and
+    complex messages.
 
-      - **Network orientation** Services tend to be oriented toward use over a network, though this is
-      not an absolute requirement.
+  - **Network orientation** Services tend to be oriented toward use over a network, though this is
+    not an absolute requirement.
 
-      -  **Platform-neutral** Messages are sent in a platform-neutral, standardized format delivered through the interfaces. XML is the most obvious format that meets this constraint.
-
-- Unlike the component-based model, which is based on design and development of tightly
-  coupled components for processes within an enterprise, using different protocols and technologies
-  such as CORBA and DCOM, SOA focuses on loosely coupled software applications running across
-  different administrative domains, based on common protocols and technologies, such as HTTP and
-  XML. SOA is related to early efforts on the architecture style of large-scale distributed systems, particularly Representational State Transfer (REST). Nowadays, REST still provides an alternative to the complex standard-driven web services technology and is used in many Web 2.0 services. In the following subsections, we introduce REST and standard-based SOA in distributed systems.
+  - **Platform-neutral** Messages are sent in a platform-neutral, standardized format delivered through the interfaces. XML is the most obvious format that meets this constraint.
 
 ---
 
@@ -46,10 +40,9 @@
 REST is a software architecture style for distributed systems, particularly distributed hypermedia
 systems, such as the World Wide Web. It has recently gained popularity among enterprises such as
 Google, Amazon, Yahoo!, and especially social networks such as Facebook and Twitter because of
-its simplicity, and its ease of being published and consumed by clients. REST, shown in Figure 5.1,
-was introduced and explained by Roy Thomas Fielding, one of the principal authors of the HTTP
-specification, in his doctoral dissertation [2] in 2000 and was developed in parallel with the
-HTTP/1.1 protocol. **_The REST architectural style is based on four principles_**:
+its simplicity, and its ease of being published and consumed by clients.. **_The REST architectural style is based on four principles_**:
+
+![A simple REST interaction between user and server in HTTP specification](https://notes-mds.vercel.app/notes/cc/images/image.png)
 
 - **Resource Identification through URIs**: The RESTful web service exposes a set of resources
   which identify targets of interaction with its clients. The key abstraction of information in REST is a resource. Any information that can be named can be a resource, such as a document or
@@ -74,3 +67,26 @@ HTTP/1.1 protocol. **_The REST architectural style is based on four principles_*
   control, transmission error detection, authentication or authorization, and access control.
 
 - **Stateless Interactions**: The REST interactions are “stateless” in the sense that the meaning of a message does not depend on the state of the conversation. Stateless communications improve visibility, since a monitoring system does not have to look beyond a single request data field in order to determine the full nature of the request reliability as it facilitates the task of recovering from partial failures, and increases scalability as discarding state between requests allows the erver component to quickly free resources. However, stateless interactions may decrease network performance by increasing the repetitive data (per-interaction overhead). Stateful interactions are based on the concept of explicit state transfer. Several techniques exist to exchange state, such as URI rewriting, cookies, and hidden form fields. State can be embedded in response messages to point to valid future states of the interaction.
+
+![Alt text](https://notes-mds.vercel.app/notes/cc/images/image1.png)
+
+- Table 5.1 **lists the REST architectural elements**. Several Java frameworks have emerged to help
+  with building RESTful web services. Restlet [4], a lightweight framework, implements REST architectural elements such as ` resources, representation, connector`, and media type for any kind of
+  RESTful system, including web services. In the Restlet framework, both the client and the server
+  are components. `Component`s communicate with each other via connectors.
+
+### **REST architectural elements**: The main elements of REST are:
+
+- _Resource_: An abstraction of a piece of information or a service that can be identified, named, addressed, or handled.
+- _Representation_: A concrete format and data structure that conveys the state of a resource at a given point in time. A resource can have multiple representations, such as XML, JSON, HTML, etc.
+- _Connector_: A component that mediates the communication between clients and servers, such as a client library, a proxy, a gateway, etc.
+- _Component_: A software module that implements the application logic and provides or consumes resources, such as a web browser, a web server, a web service, etc.
+
+### Core technologies of today's web service
+
+##### The main technologies that enable the development and deployment of web services are:
+
+- **XML**: Extensible Markup Language, a standard syntax for defining structured data that can be exchanged and processed across different platforms and applications.
+- **SOAP**: Simple Object Access Protocol, a protocol for exchanging structured and typed information between web service providers and requesters, using XML as the message format and HTTP as the transport protocol.
+- **WSDL**: Web Services Description Language, a language for describing the interface, functionality, and location of web services, using XML as the syntax.
+- **UDDI**: Universal Description, Discovery, and Integration, a registry service that allows web service providers to publish their services and web service requesters to discover and bind to them.
