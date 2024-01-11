@@ -78,17 +78,53 @@ Despite its numerous advantages, cloud computing also has some disadvantages:
 
 # Module -4
 
-**SLE: Public cloud platforms: Azure, Extended cloud computing services**
+**SLE: Public Cloud Platforms: Azure, Extended Cloud Computing Services:**
 
-**1. Explain Google App Engine for PaaS Applications:**
+1. **Microsoft Azure:**
+   - **Description:** Azure is a cloud computing platform by Microsoft offering a variety of services, similar to AWS and GCP.
+   - **Service Ecosystem:** Includes infrastructure services, platform services, and software services. Provides integration with Microsoft's enterprise solutions.
 
-- **Google App Engine (GAE):**
-  - **Platform as a Service (PaaS):**
-    - Allows developers to build, deploy, and scale applications without managing the underlying infrastructure.
-  - **Key Features:**
-    - Supports multiple programming languages such as Python, Java, and Go.
-    - Automatic scaling based on application demand.
-    - Integrated services for data storage, authentication, and more.
+2. **Extended Cloud Computing Services:**
+   - **Definition:** Extended cloud computing services encompass additional functionalities beyond traditional IaaS, PaaS, and SaaS offerings.
+   - **Examples:** This may include services related to edge computing, Internet of Things (IoT), artificial intelligence (AI), and blockchain.
+
+**Public Cloud Platform: Azure - Extended Cloud Computing Services:**
+
+1. **Azure Edge Services:**
+   - **Description:** Extends Azure services to the edge, bringing compute and analytics closer to IoT devices.
+   - **Use Cases:** Enables real-time processing of data from edge devices, reducing latency and improving responsiveness.
+
+2. **Azure IoT Hub:**
+   - **Description:** A fully managed IoT service that enables bidirectional communication between IoT applications and the devices it manages.
+   - **Features:** Device provisioning, message routing, and device management capabilities.
+
+3. **Azure Machine Learning:**
+   - **Description:** A cloud-based machine learning service that allows developers to build, train, and deploy machine learning models.
+   - **Use Cases:** Applied in various domains, including predictive analytics, image recognition, and natural language processing.
+
+4. **Azure Blockchain Service:**
+   - **Description:** A fully managed blockchain service that simplifies the deployment, management, and governance of blockchain networks.
+   - **Use Cases:** Supports applications involving supply chain, finance, and smart contracts.
+
+**Benefits of Cloud Computing Platforms:**
+
+1. **Cost Efficiency:**
+   - **Pay-as-You-Go Model:** Users only pay for the resources they consume, leading to cost savings.
+
+2. **Scalability:**
+   - **Elastic Resources:** Cloud platforms allow users to scale resources up or down based on demand.
+
+3. **Flexibility:**
+   - **Variety of Services:** Users can choose from a wide range of services based on their specific needs.
+
+4. **Reliability and Availability:**
+   - **Redundancy:** Cloud platforms often replicate data and resources across multiple locations for improved reliability.
+
+5. **Security:**
+   - **Built-In Security Features:** Cloud providers implement robust security measures to protect data and resources.
+
+6. **Global Reach:**
+   - **Data Centers Worldwide:** Cloud platforms operate data centers globally, enabling users to deploy resources close to their target audience.
 
 
 # Module 5 
@@ -134,3 +170,8 @@ Despite its numerous advantages, cloud computing also has some disadvantages:
 - **Integration:** Integrating diverse scientific tools and resources into a unified gateway.
 - **Scalability:** Handling increasing user demands and growing datasets.
 - **Security:** Ensuring the security of sensitive scientific data and computations.
+
+
+# mo- 2
+Optimal checkpoint interval = Square root (MTTF x tc)/h
+Availability = MTTF/(MTTF + MTTR) 
