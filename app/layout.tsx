@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/provider/theme-provider";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { siteConfig } from "@/lib/config/site-config";
+import { ModeToggle } from "@/components/mode-toggle";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -73,6 +74,10 @@ export default function RootLayout({
 
           {children}
           </main>
+          <span className=" fixed bottom-4 right-4">
+
+          <ModeToggle/>
+          </span>
           <Footer />
         </ThemeProvider>
       </body>

@@ -1,9 +1,7 @@
 "use client";
 
-import { SearchIcon, SidebarOpen } from "lucide-react";
 import { FC } from "react";
 import { Button } from "./ui/button";
-import { ModeToggle } from "./mode-toggle";
 import { useParams, useRouter } from "next/navigation";
 import { siteConfig } from "@/lib/config/site-config";
 import Image from "next/image";
@@ -79,9 +77,6 @@ const Navbar: FC<NavbarProps> = ({}) => {
           </div>
         </div>
 
-        <div className=" ml-auto  space-x-5   mr-8">
-          <ModeToggle />
-        </div>
       </div>
     </>
   );
