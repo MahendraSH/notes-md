@@ -2,6 +2,7 @@ import axios from "axios";
 import { FC } from "react";
 import ReactHtmlParser from "react-html-parser";
 import md from "markdown-it";
+import namedHeadings from "markdown-it-named-headings";
 import { siteConfig } from "@/lib/config/site-config";
 interface MdPageProps {
   params: {
@@ -25,7 +26,10 @@ const MdPage: FC<MdPageProps> = async ({ params }) => {
   }
 
   const mddata = await ReadMd();
-  const data = md().set({ linkify: true, typographer: true }).render(mddata);
+  const data = md()
+    .set({ linkify: true, typographer: true, breaks: false })
+    .use(namedHeadings)
+    .render(mddata);
 
   return (
     <div className="   prose   *:first-letter:capitalize  prose-headings:text-accent-foreground/75 prose-strong:text-secondary-foreground  prose-strong:text-xl prose-strong:font-semibold  mx-auto mt-8 *:text-foreground prose-code:text-base prose-code:text-muted-foreground prose-code:bg-muted">
