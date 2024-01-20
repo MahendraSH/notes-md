@@ -71,12 +71,10 @@ export default function RootLayout({
         >
           <Navbar />
           <main className=" flex justify-center  ">
-
-          {children}
+            {children}
           </main>
           <span className=" fixed bottom-4 right-4">
-
-          <ModeToggle/>
+            <ModeToggle />
           </span>
           <Footer />
         </ThemeProvider>

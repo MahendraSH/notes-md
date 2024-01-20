@@ -32,7 +32,7 @@ const MdPage: FC<MdPageProps> = async ({ params }) => {
     .render(mddata);
 
   return (
-    <div className="   prose   *:first-letter:capitalize  prose-headings:text-accent-foreground/75 prose-strong:text-secondary-foreground  prose-strong:text-xl prose-strong:font-semibold  mx-auto mt-8 *:text-foreground prose-code:text-base prose-code:text-muted-foreground prose-code:bg-muted">
+    <div className=" sm:w-[cal(100%-20px)] lg: w-full  p-2     prose   *:first-letter:capitalize  prose-headings:text-accent-foreground/75 prose-strong:text-secondary-foreground  prose-strong:text-xl prose-strong:font-semibold  mx-auto mt-8 *:text-foreground prose-code:text-base prose-code:text-muted-foreground prose-code:bg-muted">
       {ReactHtmlParser(data)}
     </div>
   );
