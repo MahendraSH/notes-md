@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: ["Mahendra S H", "Frontend Developer", "React", "Next.js"],
+  keywords: ["notes"],
   creator: "Mahendra S H",
 
   authors: [
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
     ],
   },
   other: {
-    "og:image": "https://mahendrash.vercel.app/og-dark.png",
-    "twitter:image": "https://mahendrash.vercel.app/og-dark.png",
+    "og:image": siteConfig.ogImage,
+    "twitter:image": siteConfig.ogImage,
 
     "og:title": siteConfig.name,
     "og:description": siteConfig.description,
