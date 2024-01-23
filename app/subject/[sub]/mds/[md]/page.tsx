@@ -4,6 +4,7 @@ import ReactHtmlParser from "react-html-parser";
 import md from "markdown-it";
 import namedHeadings from "markdown-it-named-headings";
 import { siteConfig } from "@/lib/config/site-config";
+
 interface MdPageProps {
   params: {
     sub: string;

@@ -1,3 +1,21 @@
 {
-  "subjects": ["wc", "oomd", "cc", "cs", "spm", "devops", "agri"]
+  "subjects": [
+    "agri",
+    "js",
+    "nodejs",
+    "ts",
+    "dsa",
+    "cpp",
+    "java",
+    "c",
+    "reactjs",
+    "sql",
+    "nextjs",
+    "os",
+    "oop",
+    "dbms",
+    "networking",
+    "systemDesign"
+
+  ]
 }
