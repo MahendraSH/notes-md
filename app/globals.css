@@ -91,6 +91,7 @@ html {
 */
 ::-webkit-scrollbar {
   width: 0.5rem;
+  height: 0.4rem;
 }
 
 /* Track */
@@ -115,3 +116,8 @@ html {
 /* ::-webkit-scrollbar-thumb:hover {
   background: #555;
 } */
+
+.prose {
+  max-width: 90ch;
+}
+

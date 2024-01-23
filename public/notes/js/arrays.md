@@ -241,23 +241,32 @@ const myChildren = arr1.concat("Peter");
 ```
 
 ### Array copyWithin()
+
 Copy to index 2, all elements from index 0:
+
 ```js
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.copyWithin(2, 0); // [ 'Banana', 'Orange', 'Banana', 'Orange' ]
 ```
+
 Copy to index 2, the elements from index 0 to 2:
 
 ```js
 const fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi"];
 fruits.copyWithin(2, 0, 2); // [ 'Banana', 'Orange', 'Banana', 'Orange', 'Kiwi' ]
 ```
-### flat()
-```js
-const myArr = [[1,2],[3,4],[5,6]];
-const newArr = myArr.flat(); // [1,2,3,4,5,6]
 
+### flat()
+
+```js
+const myArr = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
+const newArr = myArr.flat(); // [1,2,3,4,5,6]
 ```
+
 ## JavaScript Array Search
 
 ## JavaScript Sorting Arrays
