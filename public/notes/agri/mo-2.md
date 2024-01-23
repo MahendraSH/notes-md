@@ -7,12 +7,13 @@ SLE: Spatial data creation and editing in GIS
 # selection criteria for sensors
 
 1. _Accuracy_ : precise and reliable measurements
-2. _Durability_: harsh environment and weather condtions `(durable engough)` 3._Ease of use_: framers do not know how to read , so easy to install and use
-3. _Compatibility_ : compatible with existing system
-4. _Cost_: low cost `(tight budgets)` and must be worth the value
-5. _Battery life_: long Battery life
-6. _Connectivity and data managment_ : must send `data to cpu` for analysis and decision , must support` wired and wireless`
-7. _Appropriateness_: the senosors must be choosen according to crop and usecase
+2. _Durability_: harsh environment and weather condtions `(durable engough)`
+3. _Ease of use_: framers do not know how to read , so easy to install and use
+4. _Compatibility_ : compatible with existing system
+5. _Cost_: low cost `(tight budgets)` and must be worth the value
+6. _Battery life_: long Battery life
+7. _Connectivity and data managment_ : must send `data to cpu` for analysis and decision , must support` wired and wireless`
+8. _Appropriateness_: the senosors must be choosen according to crop and usecase
 
 # pH sensor, moisture sensor, humidity sensor,
 
@@ -65,3 +66,19 @@ SLE: Spatial data creation and editing in GIS
 # Precision agriculture : concepts and techniques
 
 # Precision agriculture : Issues and concerns for Indian agriculture
+
+
+
+### **SLE: Spatial Data Creation and Editing in GIS**
+
+**Spatial Data Creation:**
+
+- In GIS, spatial data is created through the collection of geographical information, either through surveys, satellite imagery, or GPS data.
+- This data includes information about the location, shape, and characteristics of geographic features.
+
+**Spatial Data Editing:**
+
+- Editing in GIS involves modifying or updating spatial data to reflect changes in the real world.
+- Techniques include adding new features, deleting obsolete ones, or adjusting attributes.
+
+Spatial data creation and editing are fundamental to maintaining accurate and up-to-date geographic information, which is crucial for effective decision-making in precision agriculture and other fields that rely on spatial data analysis.
