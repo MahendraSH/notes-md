@@ -1,6 +1,5 @@
 {
   "subjects": [
-    "devops", 
     "js",
     "nodejs",
     "ts",
@@ -16,6 +15,5 @@
     "dbms",
     "networking",
     "systemDesign"
-
   ]
 }
