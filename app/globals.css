@@ -4,6 +4,7 @@
 
 @layer base {
   :root {
+    --hljs-string: 90, 80%, 30%;
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
 
@@ -36,6 +37,8 @@
   }
 
   .dark {
+    --hljs-string: 75, 60%, 39%;
+
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
 
@@ -119,5 +122,9 @@ html {
 
 .prose {
   max-width: 90ch;
+}
+
+.hljs-string {
+  @apply !text-hljsString;
 }
 

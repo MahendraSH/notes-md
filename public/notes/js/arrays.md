@@ -274,3 +274,11 @@ const newArr = myArr.flat(); // [1,2,3,4,5,6]
 ## JavaScript Array Iteration
 
 ## JavaScript Array Const
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+int main () {
+  int n;
+  cout<<n << endl;
+}
+```
