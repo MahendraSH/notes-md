@@ -128,3 +128,6 @@ html {
   @apply !text-hljsString;
 }
 
+.hljs-comment {
+  display: flex;
+}

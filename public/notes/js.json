@@ -1,3 +1,23 @@
 {
-  "mds": ["basics.md", "arrays.md", "date.md", "math.md", "conditional.md"]
+  "mds": [
+    "readme.md",
+    "basics.md",
+    "arrays.md",
+    "date.md",
+    "math.md",
+    "conditional.md",
+    "Iterables.md",
+    "sets-maps.md",
+    "types-con.md",
+    "someThings.md",
+    "error-scope-hoisting.md",
+    "strict-mode-this-keyword-arrow-function.md",
+    "class-modules.md",
+    "someJsTools-Conventions",
+    "jsVersions.md",
+    "js-Objects.md",
+    "js-functions.md",
+    "js-classes.md",
+    "Async-awit-promises.md"
+  ]
 }

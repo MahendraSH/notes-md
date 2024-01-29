@@ -6,6 +6,8 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { siteConfig } from "@/lib/config/site-config";
 import { ModeToggle } from "@/components/mode-toggle";
+import { Button } from "@/components/ui/button";
+import UpButton from "@/components/up-button";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -70,11 +72,12 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main className=" flex justify-center  ">
-            {children}
-          </main>
+          <main className=" flex justify-center  ">{children}</main>
           <span className=" fixed bottom-4 right-4">
             <ModeToggle />
+          </span>
+          <span className=" fixed bottom-4  right-1/2">
+            <UpButton />
           </span>
           <Footer />
         </ThemeProvider>
