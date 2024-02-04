@@ -2,6 +2,8 @@
 
 - A JavaScript Set is a collection of `unique` values.
 
+[more details table in object](./js-Objects.md/#javascript-obj-sets)
+
 ## Essential Set Methods
 
 | Method    | Description                                      |
@@ -171,6 +173,9 @@ for (const x of mapa.entries()) {
   //.....
 }
 ```
+
+- set is competable with map see [more details](./js-Objects.md/#javascript-obj-sets)
+- has same functions
 
 ## Object vs Maps
 
