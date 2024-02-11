@@ -30,7 +30,7 @@ const MdPage: FC<MdPageProps> = async ({ params }) => {
 
   const mddata = await ReadMd();
   const data = md()
-    .set({ typographer: true, breaks: false })
+    .set({ typographer: true, breaks: false ,html:true })
     .use(namedHeadings)
     .use(highlightjs, {
       auto: true,
