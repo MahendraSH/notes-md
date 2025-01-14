@@ -1,6 +1,8 @@
 {
     "mds":[
         "readme.md",
-        "introductionMicroservices.md"
+        "introductionMicroservices.md",
+        "cloudBaseMicroservices.md",
+        "centralizedConfigaration.md"
     ]
 }
