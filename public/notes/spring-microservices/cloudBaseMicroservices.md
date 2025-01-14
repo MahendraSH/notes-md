@@ -1,0 +1,50 @@
+## Cloud based microservices
+
+- **what is cloud ?**
+  - cloud is a distributed computing platform that provides a set of services and infrastructure for building and running applications.
+- what is cloud based microservices ?
+  - cloud based microservices is a distributed computing platform that provides a set of services and infrastructure for building and running applications.
+- **Cloud enabled** and **Cloud native microservices**
+  - Cloud enabled and Cloud native microservices are microservices that are built and run in a cloud environment.
+  - just deploying microservices in a cloud environment is called cloud enabled microservices.
+  - cloud native microservices are microservices that are built and run in a cloud environment and are designed to be easy to manage and scale.
+- **Cloud native microservices advantages**:
+  - elasticity , load balance , resilience , security
+  - cloud native microservices are easy to manage and scale.
+  - cloud native microservices are secure.
+  - cloud native microservices are cost-effective.
+  - cloud native microservices are easy to migrate and upgrade.
+- **challenges of cloud native microservices**:
+  - discovery of services is complex.
+  - distributed configuration management is complex.
+  - load balancing is complex.
+  - reliability is complex.
+  - monitoring and tracing is complex.
+- **The challenges of cloud native microservices can be solved by using Spring Cloud , Netflix oss etc .**
+- **The Spring Cloud project consists of the following component**:
+
+  - Spring Cloud Config
+  - Spring Cloud Consul
+  - Spring Cloud Gateway
+  - Spring Cloud Load Balancer
+  - Spring Cloud Stream
+  - Spring Cloud Bus
+  - Spring Cloud Security
+  - Spring Cloud Service Registry etc .
+
+- **Summery**
+  - what is cloud ?
+  - what is cloud based microservices ?
+  - cloud enabled and cloud native microservices ?
+  - cloud native microservices advantages ?
+  - challenges of cloud native microservices ?
+  - The challenges of cloud native microservices can be solved by using Spring Cloud , Netflix oss etc .
+  - The Spring Cloud project consists of the following component :
+    - Spring Cloud Config
+    - Spring Cloud Consul
+    - Spring Cloud Gateway
+    - Spring Cloud Load Balancer
+    - Spring Cloud Stream
+    - Spring Cloud Bus
+    - Spring Cloud Security
+    - Spring Cloud Service Registry etc .
