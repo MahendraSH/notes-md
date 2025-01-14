@@ -1,9 +1,10 @@
 {
-    "mds":[
-        "readme.md",
-        "introductionMicroservices.md",
-        "cloudBaseMicroservices.md",
-        "centralizedConfigaration.md",
-        "ServiceDiscovery.md"
-    ]
+  "mds": [
+    "readme.md",
+    "introductionMicroservices.md",
+    "cloudBaseMicroservices.md",
+    "centralizedConfigaration.md",
+    "ServiceDiscovery.md",
+    "LoadBalancing.md"
+  ]
 }

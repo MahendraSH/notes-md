@@ -27,4 +27,8 @@
     - service discovery
     - service discovery using spring cloud consul
     - Demo : service discovery using spring cloud consul
-    
+
+5. **[LoadBalancing](LoadBalancing.md)**
+    - introduction to load balancing
+    - introduction to load balancing using spring cloud load balancer
+    - Demo : load balancing using spring cloud load balancer
