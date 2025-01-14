@@ -22,3 +22,9 @@
    - Spring Cloud Consul
    - Distributed configuration management APIs
    - Distributed Configuration using Consul
+
+4. **[ServiceDiscovery](ServiceDiscovery.md)**
+    - service discovery
+    - service discovery using spring cloud consul
+    - Demo : service discovery using spring cloud consul
+    
