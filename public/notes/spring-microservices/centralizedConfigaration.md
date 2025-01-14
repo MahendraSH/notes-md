@@ -207,3 +207,13 @@
         - **`data-key`** specifies the key in Consul where the configuration is stored (e.g., `data` for common configurations).
 
       By using `bootstrap.yml`, you can ensure that each microservice can access the desired configuration from Consul, making it easier to manage and scale microservices.
+
+  - consul can be written in yml, json , xml format
+
+  - **summary** :
+
+    - Distributed configuration using Consul
+    - Distributed configuration management APIs
+    - Distributed Configuration using Consul
+    - Spring Cloud Consul
+    - Spring Cloud Config example
