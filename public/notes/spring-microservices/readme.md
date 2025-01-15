@@ -32,3 +32,15 @@
     - introduction to load balancing
     - introduction to load balancing using spring cloud load balancer
     - Demo : load balancing using spring cloud load balancer
+
+6. **[Resilience](Resilience.md)**
+    - introduction to resilience
+    - resilience using resilience4j
+    - Demo : resilience using resilience4j
+    - Demo : circuit breaker using resilience4j
+    - Resilience4j some more configurations
+    - synchronous and asynchronous communication
+    - Demo : synchronous communication
+    - Demo : asynchronous communication
+
+7. **[Gateway](Gateway.md)**
